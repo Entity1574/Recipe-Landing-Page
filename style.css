@@ -1,0 +1,112 @@
+@font-face{
+    font-family: 'body';
+    src:url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf)format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face{
+    font-family: 'headings';
+    src:url(assets/fonts/young-serif/YoungSerif-Regular.ttf)format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+@media (min-width:768px) {
+    .main {
+        width:425px;
+        border-radius:10px;
+        height:90%;
+        background-color:white;
+        margin:10px;
+    }
+    body {
+        background-color:pink;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+    img {
+        border-radius:10px;
+    }
+}
+
+
+body {
+    margin:0;
+    padding:0;
+    font-family:'body', sans-serif;
+}
+.headings{
+    font-family:'headings', sans-serif;
+    color:hsl(332, 51%, 32%);
+}
+img{
+    width:100%;
+    object-fit:cover;
+    height:auto;
+}
+
+.header{
+    text-align:center;
+}
+
+.name {
+    font-family:'headings';
+}
+
+
+
+
+.t-est{
+    width:80%;
+    border-radius:8px;
+    background-color:lightpink;
+    padding:8px;
+    margin:0 auto;
+    align-items:center;
+}
+ol{
+    color:hsl(332, 51%, 32%);
+}
+ul{
+    color:hsl(332, 51%, 32%);
+}
+
+li {
+    color:black;
+}
+
+
+.ingredients{
+    border-bottom:1px solid lightgrey;
+    width:90%;
+    margin:0 auto;
+}
+
+
+.instructions{
+    width:90%;
+    margin:0 auto;
+    border-bottom:1px solid lightgrey;
+}
+
+.nutrition {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left; /* Fixed typo */
+}
+
+table {
+    margin: 10px auto; /* Center table */
+    padding: 10px;
+    border-collapse: collapse; /* This is fine */
+    border-spacing: 20px; /* Adds spacing between cells */
+}
+
+td {
+    padding: 10px; /* Use padding instead of margin */
+    text-align: left; /* Align text properly */
+    border-bottom: 1px solid lightgrey;
+}
+.pink {
+    color:hsl(332, 51%, 32%);
+}
